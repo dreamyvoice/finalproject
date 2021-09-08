@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/mainboard"
+        android:title="메인보드/CPU"/>
+    <item
+        android:id="@+id/cooler"
+        android:title="쿨러"/>
+    <item
+        android:id="@+id/case1"
+        android:title="케이스"/>
+    <item
+        android:id="@+id/grapiccard"
+        android:title="그래픽카드"/>
+    <item
+        android:id="@+id/ram"
+        android:title="RAM"/>
+    <item
+        android:id="@+id/hddsdd"
+        android:title="HDD/SDD"/>
+
+
+
+</menu>
