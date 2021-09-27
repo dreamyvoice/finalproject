@@ -126,7 +126,90 @@
              android:paddingLeft="19dp"/>
 
       </LinearLayout>
+      <TableLayout
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:orientation="vertical"
+          >
+         <TableRow>
+            <ImageView
+               android:id="@+id/image1"
+               android:src="@drawable/image"
+               android:layout_width="200dp"
+               android:layout_height="180dp"/>
+            <ImageView
+                android:id="@+id/image2"
+                android:src="@drawable/image"
+                android:layout_width="200dp"
+                android:layout_height="180dp"/>
+         </TableRow>
+         <TableRow>
+            <TextView
+                android:id="@+id/headtext1"
+               android:text="Headline"
+               android:textSize="30dp"
+               android:layout_marginLeft="20dp"/>
+            <TextView
+                android:id="@+id/headtext2"
+                android:text="Headline"
+                android:textSize="30dp"
+                android:layout_marginLeft="20dp"/>
+         </TableRow>
+         <TableRow>
+            <TextView
+                android:id="@+id/bodytext1"
+               android:text="Body"
+               android:textSize="20dp"
+               android:layout_marginLeft="35dp"/>
+            <TextView
+                android:id="@+id/bodytext2"
+                android:text="Body"
+                android:textSize="20dp"
+                android:layout_marginLeft="35dp"/>
+         </TableRow>
+         <TableRow>
+            <ImageView
+                android:id="@+id/image3"
+                android:src="@drawable/image"
+                android:layout_width="200dp"
+                android:layout_height="180dp"/>
+            <ImageView
+                android:id="@+id/image4"
+                android:src="@drawable/image"
+                android:layout_width="200dp"
+                android:layout_height="180dp"/>
+         </TableRow>
+         <TableRow>
+            <TextView
+                android:id="@+id/headtext3"
+                android:text="Headline"
+                android:textSize="30dp"
+                android:layout_marginLeft="20dp"/>
+            <TextView
+                android:id="@+id/headtext4"
+                android:text="Headline"
+                android:textSize="30dp"
+                android:layout_marginLeft="20dp"/>
+         </TableRow>
+         <TableRow>
+            <TextView
+                android:id="@+id/bodytext3"
+                android:text="Body"
+                android:textSize="20dp"
+                android:layout_marginLeft="35dp"/>
+            <TextView
+                android:id="@+id/bodytext4"
+                android:text="Body"
+                android:textSize="20dp"
+                android:layout_marginLeft="35dp"/>
+         </TableRow>
+      </TableLayout>
+
+
    </LinearLayout>
+
+
+
 
 
 
