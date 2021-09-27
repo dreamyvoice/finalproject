@@ -78,7 +78,7 @@ public class MainActivity extends AppCompatActivity {
     @Override
     public boolean onOptionsItemSelected(MenuItem item) {
         switch (item.getItemId()) {
-            case R.id.cooler:
+            case R.id.mainboard:
                 Intent NewActivity = new Intent(getApplicationContext(), subpageActivity.class);
                 startActivity(NewActivity);
                 break;
