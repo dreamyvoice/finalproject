@@ -60,10 +60,11 @@ public class MainActivity extends AppCompatActivity {
         category1.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent intent = new Intent(getApplicationContext(), subpageActivity.class);
+                Intent intent = new Intent(MainActivity.this, subpageActivity.class);
                 startActivity(intent);
             }
         });
+
 
     }
 
@@ -78,7 +79,7 @@ public class MainActivity extends AppCompatActivity {
     @Override
     public boolean onOptionsItemSelected(MenuItem item) {
         switch (item.getItemId()) {
-            case R.id.mainboard:
+            case R.id.C:
                 Intent NewActivity = new Intent(getApplicationContext(), subpageActivity.class);
                 startActivity(NewActivity);
                 break;

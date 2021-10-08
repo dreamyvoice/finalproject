@@ -1,23 +1,21 @@
 <?xml version="1.0" encoding="utf-8"?>
 <menu xmlns:android="http://schemas.android.com/apk/res/android">
     <item
-        android:id="@+id/mainboard"
-        android:title="메인보드/CPU"/>
+        android:id="@+id/C"
+        android:title="C언어"/>
     <item
-        android:id="@+id/cooler"
-        android:title="쿨러"/>
+        android:id="@+id/JAVA"
+        android:title="Java"/>
     <item
-        android:id="@+id/case1"
-        android:title="케이스"/>
+        android:id="@+id/PYTHON"
+        android:title="파이썬"/>
     <item
-        android:id="@+id/grapiccard"
-        android:title="그래픽카드"/>
+        android:id="@+id/HTML"
+        android:title="HTML"/>
     <item
-        android:id="@+id/ram"
-        android:title="RAM"/>
-    <item
-        android:id="@+id/hddsdd"
-        android:title="HDD/SDD"/>
+        android:id="@+id/SQL"
+        android:title="SQL"/>
+
 
 
 

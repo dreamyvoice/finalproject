@@ -43,7 +43,7 @@
             <Button
                 android:id="@+id/category1"
                 android:layout_weight="1"
-                android:background="@drawable/computer"
+                android:background="@drawable/c"
                 android:layout_width="80dp"
                 android:layout_height="80dp"
                 android:layout_marginLeft="10dp"
@@ -54,7 +54,7 @@
             <Button
                 android:id="@+id/category2"
                 android:layout_weight="1"
-                android:background="@drawable/computer"
+                android:background="@drawable/java"
                 android:layout_width="80dp"
                 android:layout_height="80dp"
                 android:layout_marginLeft="5dp"
@@ -64,7 +64,7 @@
             <Button
                 android:id="@+id/category3"
                 android:layout_weight="1"
-                android:background="@drawable/computer"
+                android:background="@drawable/pyton"
                 android:layout_width="80dp"
                 android:layout_height="80dp"
                 android:layout_marginLeft="5dp"
@@ -73,7 +73,7 @@
             <Button
                 android:id="@+id/category4"
                 android:layout_weight="1"
-                android:background="@drawable/computer"
+                android:background="@drawable/html"
                 android:layout_width="80dp"
                 android:layout_height="80dp"
                 android:layout_marginLeft="5dp"
@@ -82,7 +82,7 @@
             <Button
                 android:id="@+id/category5"
                 android:layout_weight="1"
-                android:background="@drawable/computer"
+                android:background="@drawable/sql"
                 android:layout_width="80dp"
                 android:layout_height="80dp"
                 android:layout_marginLeft="5dp"
@@ -96,34 +96,35 @@
          <TextView
              android:layout_width="wrap_content"
              android:layout_height="wrap_content"
-            android:text="카테고리1"
+            android:text="C언어"
             android:textSize="15dp"
-            android:paddingLeft="11dp"/>
+            android:paddingLeft="20dp"/>
          <TextView
              android:layout_width="wrap_content"
              android:layout_height="wrap_content"
-             android:text="카테고리1"
+             android:text="Java"
              android:textSize="15dp"
-             android:paddingLeft="14dp"/>
+             android:paddingLeft="50dp"/>
          <TextView
              android:layout_width="wrap_content"
              android:layout_height="wrap_content"
-             android:text="카테고리1"
+             android:text="파이썬"
              android:textSize="15dp"
-             android:paddingLeft="16dp"
+             android:paddingLeft="50dp"
              />
          <TextView
              android:layout_width="wrap_content"
              android:layout_height="wrap_content"
-             android:text="카테고리1"
+             android:text="HTML"
              android:textSize="15dp"
-             android:paddingLeft="24dp"/>
+             android:paddingLeft="38dp"/>
+
          <TextView
              android:layout_width="wrap_content"
              android:layout_height="wrap_content"
-             android:text="카테고리1"
-             android:textSize="15dp"
-             android:paddingLeft="19dp"/>
+             android:paddingLeft="50dp"
+             android:text="SQL"
+             android:textSize="15dp" />
 
       </LinearLayout>
       <TableLayout
